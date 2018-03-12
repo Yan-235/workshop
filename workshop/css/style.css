@@ -1,0 +1,528 @@
+html, body {
+	overflow-x: hidden !important;
+	background-color: #fff;
+	color: #636b6f;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	height: 100vh;
+	margin: 0;
+}
+
+.full-height {
+	height: 100vh;
+}
+
+.flex-center {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.position-ref {
+	position: relative;
+}
+
+.top-right {
+	position: absolute;
+	right: 10px;
+	top: 18px;
+}
+
+.content {
+	text-align: center;
+}
+
+.title {
+	font-size: 84px;
+}
+
+.links > a {
+	color: #636b6f !important;
+	padding: 0 25px;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: .1rem;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.m-b-md {
+	margin-bottom: 30px;
+}
+
+.media-btn-register {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	color: white;
+	background-color: #0098d1;
+	border: 1px;
+	border-color: #26a7d8;
+	width: 90px;
+}
+
+ul.hor_nav {
+	margin: 0;
+	padding: 0;
+}
+
+ul.hor_nav li {
+	display: inline;
+	margin-right: 4px;
+	padding: 2px;
+}
+
+.navbar-nav {
+	margin: 0 !important;
+}
+
+.navbar-nav > li {
+	float: none;
+	display: inline;
+}
+
+.navbar-nav > li > a {
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
+}
+
+.logo-size {
+	width: 8em !important;
+}
+
+.margin-for-btn-in {
+	margin-right: 1em;
+}
+
+@media (max-width: 1366px) {
+
+	.first-section-background {
+		background-image: url(../public/img/Green-Grass_opt.jpg);
+		background-color: rgba(0, 0, 0, 0.3);
+		background-blend-mode: darken;
+		color: white;
+		background-size: cover;
+		height: 40em !important;
+	}
+
+	.top-padding {
+		padding-top: 12em!important;
+	}
+
+	.bottom-padding{
+		padding-bottom: 10em!important;
+	}
+
+	.header-textstyle {
+		font-size: 32px!important;
+		font-weight: bold;
+	}
+
+	.first-section-textstyle {
+		font-family: "Open Sans";
+		font-size: 20px!important;
+	}
+
+	.second-section-header-textstyle{
+		color: black;
+		font-size: 20px!important;
+		padding-bottom: 10px!important;
+	}
+
+}
+
+.first-section-background {
+	background-image: url(../public/img/Green-Grass_opt.jpg);
+	background-color: rgba(0, 0, 0, 0.3);
+	background-blend-mode: darken;
+	color: white;
+	background-size: cover;
+	height: 62em;
+}
+
+.top-padding {
+	padding-top: 27em;
+}
+
+.header-textstyle {
+	font-size: 54px;
+	font-weight: bold;
+}
+
+.first-section-textstyle {
+	font-size: 24px;
+	font-family: "Open Sans";
+}
+
+.second-section-header-textstyle{
+	color: black;
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+
+/* 1. */
+.carousel-control,
+.carousel-control:hover {
+  filter: none;
+  opacity: 1;
+  text-shadow: none;
+}
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+.carousel-control .glyphicon-chevron-left {
+
+  margin-left: 0px;
+}
+.carousel-control .glyphicon-chevron-right {
+
+  margin-right: 0vw;
+}
+
+
+/* 3. */
+@media (max-width: 760px) {
+
+	.size-of-img-of-carousel{
+		width: 30vw!important;
+		text-align: center!important;
+		z-index: 1;
+	}
+
+
+}
+
+@media (max-width: 1024px){
+	.title-of-carousel{
+		text-align: center;
+		margin-top: 16vw!important;
+		z-index: 2;
+		font-size: 40px!important;
+	}
+
+	.tieser-of-carousel{
+		text-align: center;
+		margin-top: 1em;
+		z-index: 2;
+		font-size: 18px!important;
+	}
+}
+
+.title-of-carousel{
+	text-align: center;
+	margin-top: 25vw;
+	z-index: 2;
+	font-size: 4em;
+}
+
+.tieser-of-carousel{
+	text-align: center;
+	margin-top: 1vw;
+	z-index: 2;
+	font-size: 30px;
+}
+
+.size-of-img-of-carousel{
+	width: 30vw;
+	z-index: 1;
+}
+
+.title-width-1{
+	width: 60px;
+}
+
+.title-width-2{
+	width: 120px;
+}
+
+.title-width-3{
+	width: 100px;
+}
+
+.title-width-12{
+	width: 120px;
+}
+
+.title-width-11{
+	width: 70px;
+}
+
+.title-width-4{
+	width: 100px;
+}
+
+.title-width-5{
+	width: 80px;
+}
+
+.title-width-6{
+	width: 60px;
+}
+
+.title-width-7{
+	width: 160px;
+}
+
+.title-width-8{
+	width: 130px;
+}
+
+.title-width-9{
+	width: 135px;
+}
+
+.title-width-10{
+	width: 120px;
+}
+
+.title-of-carousel-xs{
+	background-color: #31b0d5;
+	display: block;
+	margin-bottom: 30vw;
+	z-index: 2;
+	font-size: 16px!important;
+}
+
+.tieser-of-carousel-xs{
+	text-align: left!important;
+	border-left: 2px solid #31b0d5;
+	padding-left: 5px;
+	z-index: 2;
+	color: black;
+	width: 200px;
+	font-size: 12px!important;
+}
+
+@media(max-width: 414px){
+	.size-of-img-of-carousel{
+		width: 40vw!important;
+		text-align: center!important;
+		z-index: 1;
+	}
+
+	.title-of-carousel-xs{
+		background-color: #31b0d5;
+		display: block;
+		margin-bottom: 30vw!important;
+		z-index: 2;
+		font-size: 16px!important;
+	}
+
+	.tieser-of-carousel-xs{
+		width: 160px;
+		text-align: left!important;
+		background-color: rgba(255,255,255,0.7);
+		z-index: 2;
+		color: black;
+		font-size: 12px!important;
+		border-left: 2px solid #31b0d5;
+		padding-left: 5px;
+	}
+}
+
+.avatar{
+	border-radius: 8vw;
+	width: 6vw;
+	height: 6vw;
+}
+
+.review-block{
+	margin-top: 5vw;
+	padding-bottom: 2vw;
+	background-image:url("../public/img/federer1_opt.jpg");
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.3);
+	background-blend-mode: darken;
+}
+
+.review-textstyle{
+	color: white;
+	font-size: 36px;
+	padding-top: 5vw;
+	padding-bottom: 5vw  ;
+}
+
+@media(max-width: 1024px){
+	.review-textstyle{
+		color: white;
+		font-size: 16px!important;
+		padding-top: 5vw;
+		padding-bottom: 5vw  ;
+	}
+}
+
+@media(max-width: 414px){
+	.review-textstyle{
+		color: white;
+		font-size: 12px!important;
+		padding-top: 5vw;
+		padding-bottom: 5vw  ;
+	}
+}
+
+.flage-image{
+	width: 22px;
+	height: 14px;
+}
+
+@media(max-width: 414px){
+	.flage-image{
+		width: 15px!important;
+		height: 10px!important;
+	}
+}
+
+.player-avatar-32{
+	width: 32px;
+	height: 32px;
+}
+
+.border1{
+	border: 1px solid rgba(200,200,200,1.00);
+ box-shadow: 0 0 4px rgba(61,61,61,0.30);
+	padding-right: 10px;
+
+}
+
+.tournament-ava{
+	width:100%;
+}
+
+.color-black{
+	color: black;
+}
+
+@media(max-width: 999px) and (min-width: 768px){
+	.color-black{
+		color: black;
+		font-size: 10px!important;
+	}
+}
+
+.text-block{
+	padding-bottom: 20px;
+}
+
+.panel-title{
+	color: black;
+}
+
+.a:hover{
+	text-decoration: none!important;
+}
+
+.footer{
+	background-color: #263238;
+	color: white;
+	padding-top: 8px!important;
+	padding-bottom: 8px!important;
+	vertical-align:middle;
+}
+
+.style-text-footer{
+
+	display:inline-block;
+}
+
+.footer-logo-size{
+	width: 8vw!important;
+	height: 2vw!important;
+}
+
+.footer-apps{
+	width: 8vw!important;
+	height: 2.6vw!important;
+}
+
+@media(max-width: 1024px){
+	.footer{
+		background-color: #263238;
+		color: white;
+		padding-top: 20px!important;
+		padding-bottom: 20px!important;
+		vertical-align:middle;
+	}
+
+	.style-text-footer{
+
+		display:inline-block;
+	}
+
+	.footer-logo-size{
+		width: 10vw!important;
+		height: 2.5vw!important;
+	}
+
+	.footer-apps{
+		width: 9vw!important;
+		height: 3vw!important;
+	}
+}
+
+@media(max-width: 767px){
+	.footer{
+		background-color: #263238;
+		color: white;
+		padding-top: 20px!important;
+		padding-bottom: 20px!important;
+		vertical-align:middle;
+	}
+
+	.style-text-footer{
+
+		display:inline-block;
+	}
+
+	.footer-logo-size{
+		width: 35vw!important;
+		height: 7vw!important;
+	}
+
+	.footer-apps{
+		margin-top: 10px!important;
+		width: 35vw!important;
+		height: 10vw!important;
+	}
+}
+
+@media(max-width: 414px){
+	.footer{
+		background-color: #263238;
+		padding-top: 20px!important;
+		padding-bottom: 20px!important;
+		vertical-align:middle;
+	}
+
+	.style-text-footer{
+
+		display:inline-block;
+	}
+
+	.footer-logo-size{
+		width: 25vw!important;
+		height: 6vw!important;
+	}
+
+	.footer-apps{
+		margin-top: 10px!important;
+		width: 25vw!important;
+		height: 8vw!important;
+	}
+}
+
+.width-of-facebook-icon{
+	width: 84px;
+}
+
+@media(max-width: 414px){
+	.width-of-facebook-icon{
+		width: 40px!important;
+		margin-bottom: 10px;
+	}
+}
+
+.middle-align{
+	vertical-align:middle;
+}
