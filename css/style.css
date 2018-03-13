@@ -415,8 +415,114 @@ ul.hor_nav li {
 
 .footer{
 	background-color: #263238;
+	color: white;
+	padding-top: 8px!important;
+	padding-bottom: 8px!important;
+	vertical-align:middle;
+}
+
+.style-text-footer{
+
+	display:inline-block;
 }
 
 .footer-logo-size{
-	width: 100%;
+	width: 8vw!important;
+	height: 2vw!important;
+}
+
+.footer-apps{
+	width: 8vw!important;
+	height: 2.6vw!important;
+}
+
+@media(max-width: 1024px){
+	.footer{
+		background-color: #263238;
+		color: white;
+		padding-top: 20px!important;
+		padding-bottom: 20px!important;
+		vertical-align:middle;
+	}
+
+	.style-text-footer{
+
+		display:inline-block;
+	}
+
+	.footer-logo-size{
+		width: 10vw!important;
+		height: 2.5vw!important;
+	}
+
+	.footer-apps{
+		width: 9vw!important;
+		height: 3vw!important;
+	}
+}
+
+@media(max-width: 767px){
+	.footer{
+		background-color: #263238;
+		color: white;
+		padding-top: 20px!important;
+		padding-bottom: 20px!important;
+		vertical-align:middle;
+	}
+
+	.style-text-footer{
+
+		display:inline-block;
+	}
+
+	.footer-logo-size{
+		width: 35vw!important;
+		height: 7vw!important;
+	}
+
+	.footer-apps{
+		margin-top: 10px!important;
+		width: 35vw!important;
+		height: 10vw!important;
+	}
+}
+
+@media(max-width: 414px){
+	.footer{
+		background-color: #263238;
+		padding-top: 20px!important;
+		padding-bottom: 20px!important;
+		vertical-align:middle;
+	}
+
+	.style-text-footer{
+
+		display:inline-block;
+	}
+
+	.footer-logo-size{
+		width: 25vw!important;
+		height: 6vw!important;
+	}
+
+	.footer-apps{
+		margin-top: 10px!important;
+		width: 25vw!important;
+		height: 8vw!important;
+	}
+}
+
+.width-of-facebook-icon{
+	width: 84px;
+}
+
+@media(max-width: 414px){
+	.width-of-facebook-icon{
+		width: 40px!important;
+		margin-bottom: 10px;
+	}
+}
+
+.middle-align{
+	vertical-align:middle;
 }
